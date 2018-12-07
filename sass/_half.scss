@@ -1,0 +1,14 @@
+.half {
+    &__one {
+        background-color: rgb(158, 92, 6);
+
+        grid-column: full-start / col-end 4;
+
+    }
+    &__two {
+        background-color: rgb(58, 53, 45);
+
+        grid-column: col-start 5 / full-end;
+
+    }
+}
